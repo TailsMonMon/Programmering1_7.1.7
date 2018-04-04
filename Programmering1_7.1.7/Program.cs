@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 namespace Programmering1_7._1._7 {
     class Program {
         static void Main(string[] args) {
-            char aChar = (char)97;
-            Console.WriteLine("a " + aChar);
+            char aChar = (char)64;
+            Console.WriteLine("a, Snabel a: "+aChar);
 
-            char bChar = (char)3;
-            Console.WriteLine("b " + bChar);
+            char bChar = (char)165;
+            Console.WriteLine("b, yen: "+bChar);
 
-            char cChar = (char)67;
-            Console.WriteLine("c " + cChar);
+            char cChar = (char)247;
+            Console.WriteLine("c, divide: "+cChar);
 
-            char dChar = (char)200;
-            Console.WriteLine("d " + dChar);
+            char dChar = (char)255;
+            Console.WriteLine("d, last one: "+dChar);
 
-            char eChar = (char)132;
-            Console.WriteLine("e " + eChar);
+            Console.WriteLine("Aything beyond 255 isn't working properly.");
 
             Console.ReadLine();
         }
